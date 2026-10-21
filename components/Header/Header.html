@@ -1,0 +1,64 @@
+<header id="header">
+    <div class="toparea">
+        <h1 class="logo"><a href="/"><img src="/assets/images/logo.png" alt="Furni"></a></h1>
+        <form class="search-box" role="search">
+            <label for="search-input" class="sr-only">
+                상품 검색
+            </label>
+
+            <input id="search-input" type="search" name="keyword" placeholder="검색어를 입력해주세요">
+
+            <button type="submit" aria-label="검색">
+                <img src="/assets/svg/Search.svg" alt="">
+            </button>
+        </form>
+        <div class="utils">
+            <ul>
+                <li>
+                    <a href="/mypage" aria-label="마이페이지">
+                        <img src="/assets/svg/User.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="/wishlist" aria-label="찜 목록">
+                        <img src="/assets/svg/Heart.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="/cart" aria-label="장바구니">
+                        <img src="/assets/svg/Cart.svg" alt="">
+                        <span class="count" aria-label="상품 수량">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="gnb" aria-label="주요 메뉴">
+        <div class="gnb-inner">
+
+            <ul class="gnb-list">
+                <li><a href="/new">NEW RELEASE</a></li>
+
+                <li>
+                    <a href="/living">
+                        LIVING
+                    </a>
+                </li>
+
+                <li><a href="/kitchen">KITCHEN</a></li>
+                <li><a href="/dining">DINING</a></li>
+                <li><a href="/lighting">LIGHTING</a></li>
+            </ul>
+
+            <ul class="gnb-utility">
+                <li><a href="/collection">COLLECTION</a></li>
+                <li><a href="/promotion">PROMOTION</a></li>
+                <li><a href="/cs">CS CENTER</a></li>
+            </ul>
+        </div>
+
+        <!-- 전체 메뉴 -->
+        <div id="mega-menu-container"></div>
+
+    </nav>
+</header>
